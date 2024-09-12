@@ -1,0 +1,52 @@
+h1 {
+    text-align: center; /* Centraliza o texto na horizontal */
+    font-family: 'Creepster', cursive; /* Exemplo de fonte macabra (use a fonte desejada) */
+    color: rgb(255, 255, 255); /* Cor branca em RGB */
+    padding: 20px; /* Espaçamento interno para destacar o texto */
+}
+
+body{
+    background-color: black;
+    
+}
+
+p{
+    color: white;
+    font-size: 25px;
+}
+
+ul{
+    color: white;
+}
+
+a{
+    color: red;
+    font-family: 'Creepster', cursive;
+    font-size: 20px;
+    
+}
+
+.mude {
+    background-color: #ffffff; /* Cor de fundo branca para o botão */
+    color: #000000; /* Cor do texto preto para o botão */
+    border-radius: 100px; /* Remove a borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar por cima */
+    position: absolute; /* Posicionamento absoluto em relação ao body */
+   
+    align-items: end;
+    margin-block-end: auto;
+}
+
+.mude:hover {
+    background-color: #cccccc; /* Cor de fundo mais clara ao passar o mouse */
+    display: flex ;
+    align-items: end;
+}
+
+button{
+   
+    align-items: end;
+    margin-block-end: auto;
+}

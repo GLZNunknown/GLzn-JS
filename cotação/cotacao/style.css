@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    background-image: url('https://img.freepik.com/vetores-gratis/zoom-de-velocidade-de-tubulacao-de-luz-azul-abstrato-na-tecnologia-de-fundo-preto_1142-9980.jpg?t=st=1725586333~exp=1725589933~hmac=86c32f7b2e53d66daed3420bf9f85f075a7db877ceac03d0a365ecacdffae147&w=1380');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(215, 93, 12)
+}
+
+form {
+    width: 300px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#resultado {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+}
+
+a {
+    text-align: center;
+    display: block;
+    color: rgb(191, 80, 15);
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;    
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png') no-repeat left center;
+    background-size: 25px 25px;
+    padding-left: 20 px;
+    align-items: center;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+   

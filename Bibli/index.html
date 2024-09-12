@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header><h1>Biblioteca</h1></header>
+
+    <nav>
+      <ul>
+        <li id="adicionarLivro"><a href="#adicionar-livro">Adicionar Livro</a></li>
+        <li><a href="#remover-livro">Remover Livro</a></li>
+        <li><a href="#pesquisar-livro">Pesquisar Livro</a></li>
+        <li><a href="#lista-de-livros">Lista de Livros</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="adicionar-livro">
+        <h2>Adicionar Livro</h2>
+        <form action="">
+          <label for="titulo">Título:</label>
+          <input type="text" id="titulo" name="titulo" /><br />
+          <label for="autor">Autor do livro:</label>
+          <input type="text" id="autor" name="autor" /><br />
+          <label for="ano">Ano de publicação:</label>
+          <input type="number" id="ano" name="ano" /><br />
+          <button type="submit">Adicionar</button>
+        </form>
+      </section>
+
+      <section id="remover-livro">
+        <h2>Remover Livro</h2>
+        <form action="">
+          <label for="titulo-remover">Título:</label>
+          <input type="text" id="titulo-remover" name="titulo-remover" /><br />
+          <button type="submit">Remover</button>
+        </form>
+      </section>
+
+      <section id="pesquisar-livro">
+        <h2>Pesquisar Livro</h2>
+        <form action="">
+          <label for="pesquisa">Pesquisar:</label>
+          <input type="text" id="pesquisa" name="pesquisa" /><br />
+          <button type="submit">Pesquisar</button>
+        </form>
+        <ul id="resultado-da-pesquisa"></ul>
+      </section>
+
+      <section id="lista-de-livros">
+        <h2>Lista de Livros</h2>
+        <ul id="livros"></ul>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
